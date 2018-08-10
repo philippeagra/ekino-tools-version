@@ -31,14 +31,14 @@ $ ./gradlew idea
 
 First, you have to add a set of env variables:
 
-| variable                | description     | example.                                       |
+| Variable name           | description     | example                                        |
 |-------------------------|-----------------|------------------------------------------------|
 |GITLAB_URL               |url of the gitlab|"https://gitlab.ekino.com"                      |
 |GITLAB_USER              |gitlab user      |"philippe.agra"                                 |
 |GITLAB_TOKEN             |gitlab api token |"XxXxXxXxXxXxXxXxXxXx"                          |
 |GITLAB_GROUP_IDS         |gitlab group ids |"1524,626"                                      |
 |EKINO_REPOSITORY_URL     |nexus url        |"https://nexus.ekino.com/repository/public-mfg/"|
-|EKINO_REPOSITORY_USER    |nexus user.      |"philippe.agra"                                 |
+|EKINO_REPOSITORY_USER    |nexus user       |"philippe.agra"                                 |
 |EKINO_REPOSITORY_PASSWORD|nexus password   |"XxXxXxXx"                                      |
 
 
@@ -46,7 +46,7 @@ Then run the application with Gradle
 ```
 ./gradlew -t runPlayBinary
 ```
-Test the application on url http://localhost:9000/ekino-tools-version/
+Test the application on url http://localhost:9000/
 
 ### Run in binary mode
 ```bash
